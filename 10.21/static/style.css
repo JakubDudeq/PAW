@@ -1,0 +1,22 @@
+
+body {padding: 0;margin: 0}
+
+h1 {color: darkgreen;
+    background-color: yellow;}
+
+.links {display: flex}
+.spamer {
+    width: 25px;
+}
+
+img {
+    height: 200px;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
