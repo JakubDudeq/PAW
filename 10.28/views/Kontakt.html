@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="links">
+    <a href="http://localhost:3000/">Strona Główna</a>
+    <div class="spamer"></div>
+    <a href="http://localhost:3000/kontakt">Kontakt</a>
+    <div class="spamer"></div>
+    <a href="http://localhost:3000/o-nas">O Nas</a>
+    <div class="spamer"></div>
+    <a href="http://localhost:3000/oferta">Oferta</a>
+</div>
+    <h1>Kontakt</h1>
+
+<form action="/kontaktForm" method="POST">
+    <label>Imię:</label>
+    <input type="text"name="inp1" required>
+    <br>
+
+    <label>Nazwisko:</label>
+    <input type="text" name="inp2" required>
+    <br>
+
+    <label>Email:</label>
+    <input type="email"name="inp3" required>
+    <br>
+
+    <label>Treść wiadomości:</label><br>
+    <textarea name="inp4" rows="5" required></textarea>
+    <br>
+
+    <input type="submit" value="wyslij">
+</form>
+</body>
+</html>
